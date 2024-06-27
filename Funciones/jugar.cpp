@@ -14,17 +14,6 @@ using namespace std;
 
 void jugar(string nombreJugadorUno, string nombreJugadorDos)
 {
-    ///ESTILOS DE RONDAS
-
-    //CUADRO
-    rlutil::locate(60,10);
-    cout << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 <<  (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << endl;
-    rlutil::locate(60,20);
-    cout << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 <<  (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << endl;
-//esquinas
-
-
-
 
     /// INICIALIZAR VECTORES
 
@@ -64,14 +53,9 @@ void jugar(string nombreJugadorUno, string nombreJugadorDos)
 
     robarEmbaucadora(minimo, maximo);
 
-
-
-
     /// SUMAR PUNTOS
     puntajeJ1 += SumarPuntos(minimo, maximo, v, tam);    // VAN A RECIBIR (INT MINIMO, INT MAXIMO) => RANGO DE CARTAS CON EL PALO DE LA EMBAUCADORA
     puntajeJ2 += SumarPuntos(minimo, maximo, v2, tam);
-
-
 
     /// MOSTRAR MANOS A LOS JUGADORES
 
